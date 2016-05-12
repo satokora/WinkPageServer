@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/satokokora/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.21.0/8ce17bdd15fff0fd8cf359757f29e778fc7191ad/google-http-client-jackson2-1.21.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8ce17bdd15fff0fd8cf359757f29e778fc7191ad">
+        <dex dex="/Users/satokokora/Documents/coursework/IT494-GraduateProject/WinkPageTurner/Application/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.21.0-19c1a9983e0032974ee12f1dba918634675af854.jar" />
+    </item>
+    <item
+        jar="/Users/satokokora/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.21.0/61ec42bbfc51aafde5eb8b4923c602c5b5965bc2/google-oauth-client-1.21.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="61ec42bbfc51aafde5eb8b4923c602c5b5965bc2">
+        <dex dex="/Users/satokokora/Documents/coursework/IT494-GraduateProject/WinkPageTurner/Application/build/intermediates/pre-dexed/debug/google-oauth-client-1.21.0-25d262a17ad6bd26a4d07117846225a77a14ae12.jar" />
+    </item>
+    <item
+        jar="/Users/satokokora/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.21.0/42631630fe1276d4d6d6397bb07d53a4e4fec278/google-http-client-1.21.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="42631630fe1276d4d6d6397bb07d53a4e4fec278">
+        <dex dex="/Users/satokokora/Documents/coursework/IT494-GraduateProject/WinkPageTurner/Application/build/intermediates/pre-dexed/debug/google-http-client-1.21.0-710f7ecbe5c85ceada87a0d96c1dd40b7f0c0fea.jar" />
+    </item>
+    <item
+        jar="/Users/satokokora/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/17.0/463f8378feba44df7ba7cd9272d01837dad62b36/guava-jdk5-17.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="/Users/satokokora/Documents/coursework/IT494-GraduateProject/WinkPageTurner/Application/build/intermediates/pre-dexed/debug/guava-jdk5-17.0-d3272f2e5ca6943bb8433fa04863678ef8627acf.jar" />
+    </item>
+    <item
+        jar="/Users/satokokora/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/satokokora/Documents/coursework/IT494-GraduateProject/WinkPageTurner/Application/build/intermediates/pre-dexed/debug/jsr305-1.3.9-a550e23c46c9ed4bf3f05efd6e168fd02398c9f3.jar" />
+    </item>
+    <item
+        jar="/Users/satokokora/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/satokokora/Documents/coursework/IT494-GraduateProject/WinkPageTurner/Application/build/intermediates/pre-dexed/debug/jackson-core-2.1.3-0f77ffe0b8271541c029e2ff5fdb48e02fea9884.jar" />
+    </item>
+    <item
+        jar="/Users/satokokora/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-drive/v2-rev213-1.21.0/529602592cdd204dc026455c42bb534b6048b65d/google-api-services-drive-v2-rev213-1.21.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="529602592cdd204dc026455c42bb534b6048b65d">
+        <dex dex="/Users/satokokora/Documents/coursework/IT494-GraduateProject/WinkPageTurner/Application/build/intermediates/pre-dexed/debug/google-api-services-drive-v2-rev213-1.21.0-da0c42d1fb66e7d633ccdfaca8491ecb0304adc6.jar" />
+    </item>
+    <item
+        jar="/Users/satokokora/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.21.0/16a6b3c680f3bf7b81bb42790ff5c1b72c5bbedc/google-api-client-1.21.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="16a6b3c680f3bf7b81bb42790ff5c1b72c5bbedc">
+        <dex dex="/Users/satokokora/Documents/coursework/IT494-GraduateProject/WinkPageTurner/Application/build/intermediates/pre-dexed/debug/google-api-client-1.21.0-c4aa0395d98e8f08c222e57e889a2f69be2425e4.jar" />
+    </item>
+
+</items>
