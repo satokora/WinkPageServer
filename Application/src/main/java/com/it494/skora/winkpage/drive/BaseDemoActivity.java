@@ -41,17 +41,6 @@ public abstract class BaseDemoActivity extends Activity implements
     public static String  APP_FOLDER_RESOURCE_ID=null;
 
     /**
-     * DriveId of an existing folder to be used as a parent folder in
-     * folder operations samples.
-     */
-    public static final String EXISTING_FOLDER_ID = "0B2EEtIjPUdX6MERsWlYxN3J6RU0";
-
-    /**
-     * DriveId of an existing file to be used in file operation samples..
-     */
-    public static final String EXISTING_FILE_ID = "0ByfSjdPVs9MZTHBmMVdSeWxaNTg";
-
-    /**
      * Extra for account name.
      */
     protected static final String EXTRA_ACCOUNT_NAME = "account_name";
