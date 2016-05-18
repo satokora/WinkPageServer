@@ -161,7 +161,7 @@ public class PdfRendererBasicFragment extends Fragment implements View.OnClickLi
 
                 new AlertDialog.Builder(getActivity())
                         .setTitle("Start Google Glass")
-                        .setMessage("Start WinkPageTurner on Google Glass and connect to this device")
+                        .setMessage("Start Wink Page on Google Glass and connect to this device")
                         .setPositiveButton("OK", null)
                         .show();
 

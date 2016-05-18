@@ -17,6 +17,7 @@
 package com.it494.skora.winkpage;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.BroadcastReceiver;
@@ -108,6 +109,12 @@ public class DeviceListActivity extends Activity {
             String noDevices = getResources().getText(R.string.none_paired).toString();
             mPairedDevicesArrayAdapter.add(noDevices);
         }
+
+        new AlertDialog.Builder(DeviceListActivity.this)
+                .setTitle("Start Google Glass")
+                .setMessage("Start Wink Page on Google Glass and connect to this device")
+                .setPositiveButton("OK", null)
+                .show();
     }
 
     @Override
@@ -154,6 +161,7 @@ public class DeviceListActivity extends Activity {
             // Get the device MAC address, which is the last 17 chars in the View
             String info = ((TextView) v).getText().toString();
             String address = info.substring(info.length() - 17);
+            Log.e(TAG,"Connect to " +address);
 
             // Create the result Intent and include the MAC address
             Intent intent = new Intent();

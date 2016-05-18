@@ -279,7 +279,7 @@ public class MainActivity extends Activity {
     public void onDestroy() {
 
         super.onDestroy();
-        // Stop the Bluetooth chat services
+
         //if (mWinkService != null) mWinkService.stop();
         if(D) Log.e(TAG, "--- ON DESTROY ---");
     }
@@ -328,12 +328,20 @@ public class MainActivity extends Activity {
                     // Get the device MAC address
                     String address = data.getExtras()
                             .getString(DeviceListActivity.EXTRA_DEVICE_ADDRESS);
+
                     // Get the BLuetoothDevice object
-                    Log.e(TAG,"about to connect");
-                    BluetoothDevice device = myBt.getRemoteDevice(address);
-                    // Attempt to connect to the device
-                    mWinkService.connect(device);
-                    Log.e(TAG, "connection sent");
+
+                    Log.e(TAG, "about to connect" + address);
+
+                        setupBluetooth();
+
+
+                        BluetoothDevice device = myBt.getRemoteDevice(address);
+                        // Attempt to connect to the device
+                        mWinkService.connect(device);
+                        Log.e(TAG, "connection sent");
+
+
                 }
                 break;
             case REQUEST_ENABLE_BT:
@@ -377,9 +385,9 @@ public class MainActivity extends Activity {
                 {
                     sendMessage("END");
                     mWinkService.stop();
-                    myBt.disable();
-                    mWinkService = null;
-                    myBt = null;
+//                    myBt.disable();
+//                    mWinkService = null;
+//                    myBt = null;
                 }
 
                 pdfFragment.setDeviceNameToScreen("",false);
