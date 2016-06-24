@@ -1,6 +1,5 @@
-# WinkPageServer
+# <img src="icon.png" width="100"> WinkPageServer
 
-![](icon.png)
 <img src="scr2.png" width="300">
 
 This repository contains source codes for my graduate directed project "A Hands-Free Music Score Turner Using Google Glass."
