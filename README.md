@@ -1,4 +1,4 @@
-# <img src="icon.png" width="100"> WinkPageServer
+# <img src="icon.png" width="50"> WinkPageServer
 
 <img src="scr2.png" width="300">
 
